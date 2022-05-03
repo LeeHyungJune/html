@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="/black/resources/css/w3.css" >
+<style type="text/css">
+	.box {
+		display: inline-block;
+		width: 300px;
+		height: 300px;
+		border: 1px solid gray;
+	}
+	.box:first-child {
+		background: linear-gradient(to right, #ff3300, #6666ff);
+	}
+	.box:nth-child(2) {
+		background: linear-gradient(to top, #e699ff, #ff9999);
+	}
+	.box:nth-child(3) {
+		background: linear-gradient(to bottom, #e699ff, #ff9999);
+	}
+	.box:nth-child(4) {
+		background: linear-gradient(to bottom, #e699ff, #ff9999);
+	}
+	.box:nth-child(5) {
+		background: linear-gradient(45deg, #e699ff, #ff9999);
+	}
+	.box:last-child {
+		/* background: linear-gradient(135deg, #ff3300, #6666ff); */
+		background: linear-gradient(to bottom right, #ff3300, #6666ff);
+	}
+</style>
+</head>
+<body>
+	<div class="w3-content w3-center">
+		<div class="box"><p></p></div>
+		<div class="box"><p></p></div>
+		<div class="box"><p></p></div>
+		<div class="box"><p></p></div>
+		<div class="box"><p></p></div>
+		<div class="box"><p></p></div>
+	</div>
+</body>
+</html>

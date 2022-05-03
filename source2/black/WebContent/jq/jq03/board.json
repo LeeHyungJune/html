@@ -1,0 +1,50 @@
+[
+	{
+		"bno": "10001",
+		"id":	"Bora",
+		"savename": "img_avatar1.png",
+		"title": "보라 lonely",
+		"body": "너무 익숙해 이제\r\n매번 끝까지 가네\r\n이건 행복이 아냐\r\n이건 사랑이 아냐\r\n니가 뭘 하든 너에게 맞춰야 하지",
+		"wdate": "2022년 05월 03일"
+	},
+	{
+		"bno": "10002",
+		"id":	"Hyolyn",
+		"savename": "img_avatar2.png",
+		"title": "효린 lonely",
+		"body": "널 이해하는 나니까\r\n그냥 또 이렇게 아무 말 안하고\r\n넘어가야 편하겠지\r\n대단한걸 바라는 게 아냐\r\n이제 많은 기대도 하지 않아 다만",
+		"wdate": "2022년 05월 03일"
+	},
+	{
+		"bno": "10003",
+		"id":	"Soyou",
+		"savename": "img_avatar3.png",
+		"title": "소유 lonely",
+		"body": "끝이 날 까봐\r\n이대론 널 잃을 까봐\r\n너는 이제 내가 쉬워지니\r\n너는 내 걱정들이 부담되니 우리\r\n우리 너무 변했나 봐",
+		"wdate": "2022년 05월 03일"
+	},
+	{
+		"bno": "10004",
+		"id":	"Dasom",
+		"savename": "img_avatar4.png",
+		"title": "다솜 lonely",
+		"body": "Baby baby lonely lonely lonely\r\n이렇게 끝인 거니\r\n왜 이러니 너 자꾸 나만 혼자서\r\n또 외로운 거니\r\nBaby baby lonely lonely lonely",
+		"wdate": "2022년 05월 03일"
+	},
+	{
+		"bno": "10005",
+		"id":	"lonely",
+		"savename": "img_avatar5.png",
+		"title": "lonely",
+		"body": "이게 사랑이니\r\n나만 변한 거니\r\n우리 지금 싸움인지 연앤지",
+		"wdate": "2022년 05월 03일"
+	},
+	{
+		"bno": "10006",
+		"id":	"foryou",
+		"savename": "img_avatar6.png",
+		"title": "for lonely",
+		"body": "우린 toast and butter 처럼 가까웠지\r\nCloser than close 갑자기 차가웠지\r\n주된 분위기는 정적 싸늘의 정점\r\n화내고 소리치고 파도가 치는 절정",
+		"wdate": "2022년 05월 03일"
+	}
+]

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Study</title>
+<link rel="stylesheet" type="text/css" href="/black/resources/css/w3.css">
+<link rel="stylesheet" type="text/css" href="/black/resources/css/base.css">
+<style type="text/css">
+	label {
+		font-size: 14pt;
+		font-weight: bold;
+		opacity: 0.7;
+		position: relative;
+		margin-top: 8px;
+	}
+	#hline {
+		clear: left; 
+		position: relative; 
+		top: 20px;
+	}
+	.w3-button {
+		margin-top: 10px;
+	}
+</style>
+<script type="text/javascript">
+/*
+  	hr 태그 위에 자바스크립트로 로그인 폼을 만들어서 추가하시오. 
+ */
+</script>
+</head>
+<body>
+	<!-- <div class="w3-content mx650 w3-center" style="padding: 0px;">
+		<h1 class="w3-blue w3-padding w3-card-4 w3-margin-bottom w3-round-large">Login</h1>
+		<form method="GET" action="#" name="frm" id="frm" class="w3-col w3-card-4 w3-padding w3-margin-top w3-round-large">
+			<div class="w3-col w3-margin-top">
+				<label for="id" class="w3-col m2 w3-text-right w3-text-gray w3-left-align" >아이디 : </label>
+				<input type="text" id="id" name="id" class="w3-col m9 w3-input w3-border" placeholder="아이디를 입력하시오.">
+			</div>
+			<div class="w3-col w3-margin-top">
+				<label for="pw" class="w3-col m2 w3-text-right w3-text-gray w3-left-align" >비밀번호 : </label>
+				<input type="password" id="pw" name="pw" class="w3-col m9 w3-input w3-border" placeholder="비밀번호를 입력하시오.">
+			</div>
+		</form>
+		<div class="w3-col w3-margin-top w3-card-4 w3-round-large" >
+			<div class="w3-third w3-button w3-green w3-hover-lime w3-round-large" id="hbtn">Home</div>
+			<div class="w3-third w3-button w3-pink w3-hover-aqua w3-round-large" id="lbtn">Login</div>
+			<div class="w3-third w3-button w3-orange w3-hover-pink w3-round-large" id="rbtn">Reset</div>
+		</div>
+	</div> -->
+	<hr id="hline">
+<script type="text/javascript">
+	var el = document.createElement('div');
+	el.setAttribute('class', 'w3-content mx650 w3-center');
+	el.setAttribute('style', 'padding: 0px;')
+	
+	var sub = document.createElement('h1');
+	sub.setAttribute('class', 'w3-blue w3-padding w3-card-4 w3-margin-bottom w3-round-large');
+	sub.innerHTML = 'LogIn';
+	
+	el.append(sub);
+	
+	var form = document.createElement('form');
+	form.setAttribute('method', 'GET');
+	form.setAttribute('action', '#');
+	form.setAttribute('name', 'frm');
+	form.setAttribute('id', 'frm');
+	form.setAttribute('class', 'w3-col w3-card-4 w3-padding w3-margin-top w3-round-large');
+	
+	var did = document.createElement('div');
+	did.setAttribute('class', 'w3-col w3-margin-top');
+	
+	form.append(did);
+	
+	var lid = document.createElement('label');
+	lid.setAttribute('for', 'id');
+	lid.setAttribute('class', 'w3-col m2 w3-text-right w3-text-gray w3-left-align');
+	lid.innerHTML = '아이디 : ';
+	
+	did.append(lid);
+	
+	var inid = document.createElement('input');
+	inid.setAttribute('type', 'text');
+	inid.setAttribute('id', 'id');
+	inid.setAttribute('name', 'id');
+	inid.setAttribute('class', 'w3-col m9 w3-inidut w3-border');
+	inid.setAttribute('placeholder', '아이디를 입력하시오');
+	
+	did.append(inid);
+	
+	
+	var dpw = document.createElement('div');
+	dpw.setAttribute('class', 'w3-col w3-margin-top');
+	
+	form.append(dpw);
+	
+	var lpw = document.createElement('label');
+	lpw.setAttribute('for', 'pw');
+	lpw.setAttribute('class', 'w3-col m2 w3-text-right w3-text-gray w3-left-align');
+	lpw.innerHTML = '비밀번호 : ';
+	
+	dpw.append(lpw);
+	
+	var inpw = document.createElement('input');
+	inpw.setAttribute('type', 'text');
+	inpw.setAttribute('pw', 'pw');
+	inpw.setAttribute('name', 'pw');
+	inpw.setAttribute('class', 'w3-col m9 w3-inpwut w3-border');
+	inpw.setAttribute('placeholder', '비밀번호를 입력하시오');
+	
+	dpw.append(inpw);
+	
+	
+	var dbtn = document.createElement('div');
+	dbtn.setAttribute('class', '3-col w3-margin-top w3-card-4 w3-round-large');
+	
+	var hbtn = document.createElement('div');
+	hbtn.setAttribute('class', 'w3-third w3-button w3-green w3-hover-lime w3-round-large');
+	hbtn.setAttribute('id', 'hbtn');
+	hbtn.innerHTML = 'Home';
+	
+	dbtn.append(hbtn);
+	
+	var lbtn = document.createElement('div');
+	lbtn.setAttribute('class', 'w3-third w3-button w3-pink w3-hover-aqua w3-round-large');
+	lbtn.setAttribute('id', 'lbtn');
+	lbtn.innerHTML = 'LogIn';
+	
+	dbtn.append(lbtn);
+	
+	var rbtn = document.createElement('div');
+	rbtn.setAttribute('class', 'w3-third w3-button w3-orange w3-hover-pink w3-round-large');
+	rbtn.setAttribute('id', 'rbtn');
+	rbtn.innerHTML = 'Reset';
+	
+	dbtn.append(rbtn);
+	
+	
+	
+	
+	el.append(form);
+	el.append(dbtn);
+	document.body.append(el);
+	
+	var hline = document.getElementById('hline');
+	document.body.insertBefore(el, hline);
+</script>
+</body>
+</html>
